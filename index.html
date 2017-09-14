@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Search Gifs of your favorite Athlete!</h1>
+                    <p>Enter your favorite athlete's names in the form field and whatch 10 Gif's pop up!</p>
+                </div>
+            </div>
+            
+                
+            <div class="row">
+
+                <div class="col-md-9">
+                   
+                    <!-- gifs will Get Dumped Dere -->
+                    <div id="gifs-appear-here"></div>
+
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="sidebar">
+                        <form id="gif-form">
+                            <label for="gif-input">Search Athlete</label>
+                            <input type="text" id="gif-input"><br>
+                        
+                            <!-- Button triggers new gif to be added -->
+                            <input class="btn btn-primary btn-block" id="add-gif" type="submit" value="Search">
+                        </form>
+                         <!-- Rendered Buttons will get Dumped Here  -->
+                        <div id="buttons-view"></div>
+                    </div>
+                </div>
+            </div>
+                
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        
+        <!-- linking logic.js -->
+        <script src="js/logic.js"></script>
+        <!-- jQuery -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
